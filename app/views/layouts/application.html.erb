@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Purple Stone Group</title>
+  <title>Purple Stone Career Advice</title>
   <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
@@ -14,7 +14,7 @@
 		<div class="row">
 			<h1 class="three columns">
 				<%= link_to(root_path) do %>
-				<%= image_tag "logo_psg.png" %>
+				<%= image_tag "logo_psca.png", width: '300' %>
 				<% end %>
 			</h1>
 
@@ -55,10 +55,12 @@
 		<nav class="row">
 			<ul id="menu">
 				<li><%= link_to t('.home'), home_path, class: "first" %></li>
-				<li><a href="#">INVESTMENT</a></li>
-				<li><a href="#">PARTNER WITH US</a></li>
+				<li><a href="#">CAREER ADVICE</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">PACKS</a></li>
 				<li><%= link_to "BLOG", posts_path %></li>
-				<li><a href="#">OUR COMPANIES</a></li>
+				<li><a href="#">RESOURCES</a></li>
+				<li><a href="#">SUCCESS STORIES</a></li>
 				<li><%= link_to t('.contact'), new_contact_path, class: "last" %></li>
 			</ul>
 		</nav> <!--  .row -->
