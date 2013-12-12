@@ -1,0 +1,13 @@
+<%= simple_form_for @contact do |f| %>
+	
+	<%= f.input :name, :label => t('.name'), :placeholder => t('.name') %>
+	<%= f.input :email, :label => t('.email'), :placeholder => t('.email') %>
+
+	<%= f.input :phone, as: :string, :label => t('.phone'), :placeholder => t('.phone') %>
+	<%= f.input :subject, :label => t('.subject'), :placeholder => t('.subject') %>
+	<%= f.input :comments, :label => t('.comments'), :placeholder => t('.comments') %>
+	<%# raw recaptcha_tags %>
+	
+	<%= f.button :submit, t('.send') %>
+
+<% end %>

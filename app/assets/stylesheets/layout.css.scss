@@ -1,0 +1,720 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic,300,300italic);
+
+// Vars
+$primaryColour: #662d91;
+$secondaryColour: #1b1464;
+$bgColour: #ffffff;
+$fontLato: 'Lato', sans-serif;
+
+body {
+  background: #e6e6e6  url(image_path('body_background.jpg')) repeat-x top;
+  font-family: $fontLato;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  color: $primaryColour;
+}
+
+p {
+  font-size: 1.1em;  
+}
+
+a {
+  color: $primaryColour;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: red;
+}
+
+h1 {
+  line-height: 75px;
+  float: left;
+  img {
+    vertical-align: middle;
+  }
+}
+img {
+  border-radius: 5px;
+  }
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h2 a {
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1;
+  margin: 10px 0;
+}
+
+/* #Buttons
+================================================== */
+
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    background: $secondaryColour;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(0, 0, 0, .75);
+    cursor: pointer;
+    margin: 20px 0;
+    line-height: normal;
+    padding: 8px 10px;
+    font-family: $fontLato;
+    a {
+      color: #ffffff;
+    }
+  }
+
+  .button:hover,
+  button:hover, button a:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover {
+    color: #ffffff;
+    background: red;
+  }
+
+  .button:active,
+  button:active, button a:active,
+  input[type="submit"]:active,
+  input[type="reset"]:active,
+  input[type="button"]:active {
+    background: $secondaryColour;
+  }
+
+  .button.full-width,
+  button.full-width,
+  input[type="submit"].full-width,
+  input[type="reset"].full-width,
+  input[type="button"].full-width {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+
+  /* Fix for odd Mozilla border & padding issues */
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+/* #Forms
+================================================== */
+
+  form {
+    margin-bottom: 20px; }
+  fieldset {
+    margin-bottom: 20px; }
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea,
+  select {
+    border: 1px solid $primaryColour;
+    padding: 6px 4px;
+    outline: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font: $fontLato;
+    color: $secondaryColour;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    background: #fff; }
+  select {
+    padding: 0; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border: 1px solid #aaa;
+    color: #444;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+    box-shadow:  0 0 3px rgba(0,0,0,.2); }
+  textarea {
+    min-height: 60px; }
+  label,
+  legend {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;  }
+  select {
+    width: 220px; }
+  input[type="checkbox"] {
+    display: inline; }
+  label span,
+  legend span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #444; }
+
+
+/* #Layout
+================================================== */
+header {
+  padding-top: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  .row{
+    margin-top: 20px;
+  }
+  h2 {
+    color: $secondaryColour;
+    font-weight: 300;
+  }
+}
+
+#menu {
+overflow: hidden;
+background: -webkit-gradient(linear, left top, left bottom, from($primaryColour), to(#000));
+background: -webkit-linear-gradient($primaryColour, #000); /* For Safari */
+background: -o-linear-gradient($primaryColour, #000); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient($primaryColour, #000); /* For Firefox 3.6 to 15 */
+background: -ms-linear-gradient($primaryColour, #000);
+background: linear-gradient($primaryColour, #000); /* Standard syntax */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='#000');
+zoom: 1;
+border-bottom: 1px solid $secondaryColour;
+}
+
+nav li a.first {
+  border-left: none;
+}
+
+nav li a.last {
+  border-right: none;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 700;
+}
+.header_right, .address {
+  padding-left: 20px;
+}
+
+.muted {
+  color: $primaryColour;
+  font-size: 1.3em;
+}
+#languages {
+  margin-top: 10px;
+}
+
+.stay-in-touch-icons > a {
+  background: url(image_path('follow-us-icons.png')) no-repeat 0 0 transparent;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  text-align: left;
+  text-indent: -10000px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none; 
+  margin: 0 10px 0 0; 
+}
+.stay-in-touch-icons > .twitter:hover {
+  background-position: 0 -30px;
+}
+.stay-in-touch-icons .facebook {
+  background-position: -36px 0;
+}
+.stay-in-touch-icons .facebook:hover {
+  background-position: -36px -30px;
+}
+.stay-in-touch-icons .google-plus {
+  background-position: -71px 0;
+}
+.stay-in-touch-icons .google-plus:hover {
+  background-position: -71px -30px;
+}
+.stay-in-touch-icons .linkedin {
+  background-position: -106px 0;
+}
+.stay-in-touch-icons > .linkedin:hover {
+  background-position: -106px -30px;
+}
+.stay-in-touch-icons .pinterest {
+  background-position: -142px 0;
+}
+.stay-in-touch-icons .pinterest:hover {
+  background-position: -142px -30px;
+}
+.stay-in-touch-icons .youtube {
+  background-position: -176px 0;
+}
+.stay-in-touch-icons .youtube:hover {
+  background-position: -176px -30px;
+}
+
+.flash {
+  background: $secondaryColour;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.flash.error {
+  background: #E55D2E;
+}
+
+.body_background {
+margin-top: -20px;
+}
+
+.contact {
+  margin-top: 30px;
+  h2 {
+    font-size: 1.7em;
+    font-weight: 300;
+    color: $secondaryColour;
+  }
+  h4 {
+    margin: 10px 0;
+    font-size: 1em;
+    line-height: 1.3;
+    font-weight: 400;
+    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+}
+
+section.video_form {
+overflow: hidden;
+background: -webkit-gradient(linear, left top, left bottom, from($primaryColour), to($secondaryColour));
+background: -webkit-linear-gradient($primaryColour, $secondaryColour); /* For Safari */
+background: -o-linear-gradient($primaryColour, $secondaryColour); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient($primaryColour, $secondaryColour); /* For Firefox 3.6 to 15 */
+background: -ms-linear-gradient($primaryColour, $secondaryColour);
+background: linear-gradient($primaryColour, $secondaryColour); /* Standard syntax */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='$secondaryColour');
+zoom: 1;
+border-bottom: 8px solid $primaryColour;
+}
+
+.slide {
+  position: relative;
+  margin-top: 30px;
+  height: 100%;
+  h2 {
+    position: absolute;
+    z-index: 5;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.3;
+    bottom: 10%;
+    padding-left: 20px;
+  }
+  .transp {
+   position:absolute;
+   bottom:0px;
+   left:0px;
+   width:100%;
+   height:40%;
+   background-color:#000;
+   z-index:3;
+   /* These three lines are for transparency in all browsers. */
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   filter: alpha(opacity=80);
+   opacity:.8;
+  }
+  img {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.aweberform {
+margin-top: 20px;
+color: #ffffff;
+  h3 {
+    padding: 10px 30px;
+    font-size: 1.5em;
+  }
+  h2 {
+    padding: 10px 30px;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+.content {
+background: #ffffff;
+}
+
+.post_details {
+padding: 30px;
+}
+
+.post_menu {
+margin-top: 30px;
+  
+  h3 {
+    border-bottom: 1px dotted $primaryColour;
+    font-weight: 700;
+    margin: 20px 20px;
+    padding-bottom: 10px;
+  }
+
+  li {
+    padding: 6px 0;
+    margin-left: 20px;
+    list-style-type: square;
+    a {
+      padding: 20px 0;
+      font-weight: 700;
+    }
+  }
+}
+
+
+.footer_one {
+padding: 10px 0;
+background: #bab8d0;
+overflow: hidden;
+zoom:1;
+margin-bottom: -20px;
+border-top: 8px solid $primaryColour;
+}
+
+.about, .affiliate{
+padding: 30px;
+}
+
+.about h2 {
+padding-bottom: 20px;
+margin-bottom: 40px;
+border-bottom: 1px dotted #ffffff;
+}
+
+.affiliate {
+  border-left: 1px dotted #ffffff;
+
+  h2 {
+    padding-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+
+  p {
+    color: #000000;
+  }
+}
+
+.footer_two {
+margin-top: -20px;
+padding-top: 30px;
+overflow: hidden;
+background: -webkit-gradient(linear, left top, left bottom, from($primaryColour), to($secondaryColour));
+background: -webkit-linear-gradient($primaryColour, $secondaryColour); /* For Safari */
+background: -o-linear-gradient($primaryColour, $secondaryColour); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient($primaryColour, $secondaryColour); /* For Firefox 3.6 to 15 */
+background: -ms-linear-gradient($primaryColour, $secondaryColour);
+background: linear-gradient($primaryColour, $secondaryColour); /* Standard syntax */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primaryColour', endColorstr='$secondaryColour');
+zoom: 1;
+border-bottom: 2px solid $primaryColour;
+  h2, p {
+    color: #ffffff;
+    font-weight: 300;
+  }
+}
+
+.copy {
+  font-size: 0.9em;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+ul#menu_footer {
+  float: right;
+  li {
+    float: left;
+  }
+  a {
+    padding: 0 10px;
+  }
+}
+
+/* Media Queries
+*********************************************/
+/* Retina */
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+
+}
+/* Landscape phones and down */
+@media (min-width: 200px) and (max-width: 480px) {
+  body {
+    padding-top: 40px;
+  }
+  header h2, .footer_two h2 {
+  margin: 15px 0;
+  padding: 20px;
+  line-height: 1em;
+  }
+  /* #menu is the original menu */
+  #menu {
+    display:none;
+  }
+  
+  .slicknav_menu {
+    display:block;
+  }
+  .slide h2 {
+    font-size: 1.1em;
+  }
+  ul#menu_footer {
+    float: left;
+    padding-top: 10px;
+    li {
+      float: none;
+      padding: 10px 0;
+    }
+  }
+
+}
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+  header h2, .footer_two h2 {
+  margin: 15px 0;
+  padding: 20px;
+  line-height: 1em;
+  }
+  /* #menu is the original menu */
+  #menu {
+    display:none;
+  }
+  
+  .slicknav_menu {
+    display:block;
+  }
+
+  .slide h2 {
+    font-size: 1.5em;
+  }
+
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+  header h2, .footer_two h2 {
+  border-left: 1px solid #C0C0C0;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  line-height: 1em;
+  }
+  .slicknav_menu {
+    display:none;
+  }
+  nav li a {
+  clear: none;
+  float: left;
+  display: block;
+  padding: 10px 15px;
+  border-left: 1px solid $primaryColour;
+  border-right: 1px solid #000;
+  }
+
+  nav li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
+  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
+  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient($secondaryColour, $primaryColour);
+  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$secondaryColour', endColorstr='$primaryColour');
+  zoom: 1;
+  }
+
+  .slide h2 {
+    font-size: 1.8em;
+  }
+  .aweberform h2 {
+    font-size: 1.9em;
+  }
+
+  .address p {
+    font-size: 1em;
+  }
+
+  ul#menu_footer a {
+    font-size: 0.9em;
+  }
+
+}
+/* Large desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+  body {
+    padding-top: 0;
+  }
+  header h2, .footer_two h2 {
+  border-left: 1px solid #C0C0C0;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  }
+  .slicknav_menu {
+    display:none;
+  }
+  nav li a {
+  clear: none;
+  float: left;
+  display: block;
+  padding: 10px 15px;
+  border-left: 1px solid $primaryColour;
+  border-right: 1px solid #000;
+  }
+
+  nav li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
+  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
+  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient($secondaryColour, $primaryColour);
+  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$secondaryColour', endColorstr='$primaryColour');
+  zoom: 1;
+  }
+  .header_right_side {
+    padding-left: 80px; 
+  }
+  .slide h2 {
+    font-size: 2.5em;
+  }
+  ul#menu_footer a {
+    font-size: 1.1em;
+  }
+}
+/* Extra-Large desktop */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  body {
+    padding-top: 0;
+  }
+  header h2, .footer_two h2 {
+  border-left: 1px solid #C0C0C0;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  }
+  .slicknav_menu {
+    display:none;
+  }
+  nav li a {
+  clear: none;
+  float: left;
+  display: block;
+  padding: 10px 15px;
+  border-left: 1px solid $primaryColour;
+  border-right: 1px solid #000;
+  }
+
+  nav li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
+  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
+  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient($secondaryColour, $primaryColour);
+  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$secondaryColour', endColorstr='$primaryColour');
+  zoom: 1;
+  }
+  .header_right_side {
+    padding-left: 80px; 
+  }
+  .slide h2 {
+    font-size: 2.5em;
+  }
+}
+/* Extra-extra-Large desktop */
+@media (min-width: 1920px) {
+  body {
+    padding-top: 0;
+  }
+  header h2, .footer_two h2 {
+  border-left: 1px solid #C0C0C0;
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  }
+  .slicknav_menu {
+    display:none;
+  }
+  nav li a {
+  clear: none;
+  float: left;
+  display: block;
+  padding: 10px 15px;
+  border-left: 1px solid $primaryColour;
+  border-right: 1px solid #000;
+  }
+
+  nav li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
+  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
+  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient($secondaryColour, $primaryColour);
+  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$secondaryColour', endColorstr='$primaryColour');
+  zoom: 1;
+  }
+  .header_right_side {
+    padding-left: 80px; 
+  }
+  .slide h2 {
+    font-size: 2.5em;
+  }
+}

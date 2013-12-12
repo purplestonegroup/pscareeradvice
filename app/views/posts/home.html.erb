@@ -1,0 +1,52 @@
+<section class="video_form">
+
+  <div class="eight columns slide">
+    <ul class="bxslider">
+      <li>
+        <h2>Want to Get High Return On Your PROPERTY Investment?</h2>
+        <div class="transp"></div>
+        <%= image_tag "slide_property_psg.jpg" %>
+      </li>
+      <li>
+        <h2>Purple Stone Group is Looking For Investors to PARTNER With Us</h2>
+        <%= image_tag "slide_partner_psg.jpg" %>
+        <div class="transp"></div>
+      </li>
+      <li>
+        <h2>Are You Landlord, Interested in RENTING Out Your Property?</h2>
+        <%= image_tag "slide_renting_psg.jpg" %>
+        <div class="transp"></div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="four columns aweberform">
+    <h2><%= t('.awebertitle') %></h2>
+    <h3><%= t('.awebersubtitle') %></h3>
+    <script type="text/javascript" src="http://forms.aweber.com/form/87/353488187.js"></script>
+  </div>
+
+</section>
+
+<section class="eight columns">
+
+    <div class="postslist">
+      <% @posts.limit(1).each do |post| %>
+        <div class="single_post group">
+
+            <div class="post_details">
+	            <h2><%= post.title %></h2>
+	            <%= image_tag post.image(:header), class: "post_image" %>
+	            <p><%= truncate post.body, length: 100 %></p>
+              <p class="button"><%= link_to "READ MORE", post_path(post) %></p>
+            </div>
+
+        </div>
+      <% end %>
+    </div>
+
+</section>
+
+<section class="four columns">
+<%= render "postsmenu" %>
+</section>

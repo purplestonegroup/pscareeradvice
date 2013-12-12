@@ -1,0 +1,33 @@
+en:
+
+  layouts:
+   application:
+    slogan: "Get High Returns on Your Investments"
+    home: "HOME"
+    investment: "INVESTMENT"
+    partnerus: "PARTNER WITH US"
+    ourcompanies: "OUR COMPANIES"
+    contact: "CONTACT"
+    aboutustitle: "About Us"
+    whatis: "What is Purple Stone Group?"
+    aboutustext: "Purple Stone Group is a company specialized in real estate, education, marketing and multimedia. The business group, through it's independent limited companies offers a lot of products and services that reflect the high satisfaction of the costumer."
+    affiliatetitle: "Join Our Affiliate Programme Now!"
+    affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
+    affiliatebutton: "JOIN US"
+
+  posts:
+   home:
+    awebertitle: "Grab Your FREE Report"
+    awebersubtitle: "Maximise Your Return On Investment!"
+
+  contacts:
+   form:
+    name: "Name"
+    email: "E-mail"
+    phone: "Phone"
+    subject: "Subject"
+    comments: "Comments"
+    send: "SEND"
+   new:
+    title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
+    subtitle: "Below you can find our location in Google Maps."
