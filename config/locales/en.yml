@@ -2,7 +2,7 @@ en:
 
   layouts:
    application:
-    slogan: "Find A Job Now, We’ll Show You How"
+    slogan_html: "Find A Job Now,<br />We’ll Show You How"
     home: "HOME"
     investment: "INVESTMENT"
     partnerus: "PARTNER WITH US"

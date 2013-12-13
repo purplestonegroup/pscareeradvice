@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Purple Stone Career Advice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
@@ -19,7 +20,7 @@
 			</h1>
 
 			<div class="four columns">
-				<h2><%= t('.slogan') %></h2>
+				<h2><%= t('.slogan_html') %></h2>
 			</div>
 
 			<div class="five columns header_right_side">
@@ -108,12 +109,12 @@
 				<div class="footer_two">
 					<h1 class="three columns">
 						<%= link_to(root_path) do %>
-						<%= image_tag "logo_psg_white.png" %>
+						<%= image_tag "logo_psca_white.png" %>
 						<% end %>
 					</h1>
 
 					<div class="four columns">
-						<h2><%= t('.slogan') %></h2>
+						<h2><%= t('.slogan_html') %></h2>
 					</div>
 
 					<div class="four columns offset-by-one">

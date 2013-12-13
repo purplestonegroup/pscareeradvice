@@ -2,7 +2,7 @@ es:
 
   layouts:
    application:
-    slogan: "Obtenga un alto retorno sobre sus inversiones"
+    slogan_html: "Obtenga un alto retorno sobre sus inversiones"
     home: "INICIO"
     investment: "INVERSIÓN"
     partnerus: "ASÓCIESE CON NOSOTROS"

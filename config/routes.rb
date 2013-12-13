@@ -1,5 +1,10 @@
 Group::Application.routes.draw do
 
+  get "contents/advice"
+  get "contents/services"
+  get "contents/packs"
+  get "contents/resources"
+  get "contents/stories"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
