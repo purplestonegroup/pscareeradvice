@@ -424,6 +424,49 @@ margin-top: 30px;
   float: left;
 }
 
+h2.stargold {
+  color: #daa520;
+}
+h2.starplatinum {
+  color: #c0c0c0;
+}
+
+/* #Table of the packs content
+================================================== */
+#table {
+  display: table;
+
+  .title {
+    display: table-caption;
+    text-align: center;
+  }
+  .heading {
+    display: table-row;
+    text-align: center;
+    color: $secondaryColour;
+    font-weight: 700;
+  }
+  .rowcell {
+    display: table-row;
+    font-weight: 400;
+    h4 {
+      line-height: 1.5;
+    }
+  }
+  .cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    border-color: #f0e68c;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+/* ================================================== */
+
+
 .footer_one {
 padding: 10px 0;
 background: #f0e68c;
