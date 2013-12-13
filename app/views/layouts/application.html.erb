@@ -55,14 +55,14 @@
 
 		<nav class="row">
 			<ul id="menu">
-				<li><%= link_to t('.home'), home_path, class: "first" %></li>
-				<li><%= link_to "CAREER ADVICE", career_path %></li>
-				<li><%= link_to "SERVICES", services_path %></li>
-				<li><%= link_to "PACKS", packs_path %></li>
-				<li><%= link_to "BLOG", posts_path %></li>
-				<li><%= link_to "RESOURCES", resources_path %></li>
-				<li><%= link_to "SUCCESS STORIES", stories_path %></li>
-				<li><%= link_to t('.contact'), new_contact_path, class: "last" %></li>
+				<li><%= active_link_to t('.home'), home_path, class: "first" %></li>
+				<li><%= active_link_to "CAREER ADVICE", career_path, class: "link" %></li>
+				<li><%= active_link_to "SERVICES", services_path, class: "link" %></li>
+				<li><%= active_link_to "PACKS", packs_path, class: "link" %></li>
+				<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+				<li><%= active_link_to "RESOURCES", resources_path, class: "link" %></li>
+				<li><%= active_link_to "SUCCESS STORIES", stories_path, class: "link" %></li>
+				<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
 			</ul>
 		</nav> <!--  .row -->
 
@@ -97,14 +97,14 @@
 
 				<nav class="row">
 					<ul id="menu">
-						<li><%= link_to t('.home'), home_path, class: "first" %></li>
-						<li><%= link_to "CAREER ADVICE", career_path %></li>
-						<li><%= link_to "SERVICES", services_path %></li>
-						<li><%= link_to "PACKS", packs_path %></li>
-						<li><%= link_to "BLOG", posts_path %></li>
-						<li><%= link_to "RESOURCES", resources_path %></li>
-						<li><%= link_to "SUCCESS STORIES", stories_path %></li>
-						<li><%= link_to t('.contact'), new_contact_path, class: "last" %></li>
+						<li><%= active_link_to t('.home'), home_path, class: "first" %></li>
+						<li><%= active_link_to "CAREER ADVICE", career_path, class: "link" %></li>
+						<li><%= active_link_to "SERVICES", services_path, class: "link" %></li>
+						<li><%= active_link_to "PACKS", packs_path, class: "link" %></li>
+						<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+						<li><%= active_link_to "RESOURCES", resources_path, class: "link" %></li>
+						<li><%= active_link_to "SUCCESS STORIES", stories_path, class: "link" %></li>
+						<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
 					</ul>
 				</nav> <!--  #main_nav --> <!--  .row -->
 
