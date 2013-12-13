@@ -65,6 +65,13 @@ h4 {
   line-height: 1;
   margin: 10px 0;
 }
+hr.light {
+  color: #f0e68c;
+  background-color: #f0e68c;
+  height: 1px;
+  margin: 10px 0;
+  border: 0;
+}
 
 /* #Buttons
 ================================================== */
@@ -345,7 +352,7 @@ border-bottom: 8px solid $primaryColour;
     color: #fff;
     font-weight: 300;
     line-height: 1.3;
-    bottom: 5%;
+    bottom: 3%;
     padding-left: 20px;
   }
   .transp {
@@ -412,6 +419,10 @@ margin-top: 30px;
   }
 }
 
+.guarantee {
+  margin: 10px;
+  float: left;
+}
 
 .footer_one {
 padding: 10px 0;
@@ -434,8 +445,6 @@ font-weight: 300;
 }
 
 .affiliate {
-  border-left: 1px dotted $secondaryColour;
-
   h2 {
     padding-bottom: 20px;
     color: #000000;
