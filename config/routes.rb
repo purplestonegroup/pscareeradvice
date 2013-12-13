@@ -1,10 +1,5 @@
 Group::Application.routes.draw do
 
-  get "contents/advice"
-  get "contents/services"
-  get "contents/packs"
-  get "contents/resources"
-  get "contents/stories"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -18,9 +13,11 @@ Group::Application.routes.draw do
     get "/contact" => "contacts#new"
 
     # static pages
-    get "/investment" => "contents#investment"
-    get "/partner-with-us" => "contents#partner", as: "partner"
-    get "/our-companies" => "contents#companies", as: "companies"
+    get "/career-advice" => "contents#career", as: "career"
+    get "/services" => "contents#services"
+    get "/packs" => "contents#packs"
+    get "/resources" => "contents#resources"
+    get "/stories" => "contents#stories"
     get "/site-map" => "contents#sitemap", as: "sitemap"
     get "/terms-and-conditions" => "contents#terms", as: "terms"
     get "/privacy" => "contents#privacy"

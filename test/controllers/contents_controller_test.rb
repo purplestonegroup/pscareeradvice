@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class ContentsControllerTest < ActionController::TestCase
-  test "should get advice" do
-    get :advice
+  test "should get career" do
+    get :career
     assert_response :success
   end
 
@@ -23,6 +23,16 @@ class ContentsControllerTest < ActionController::TestCase
 
   test "should get stories" do
     get :stories
+    assert_response :success
+  end
+
+  test "should get terms" do
+    get :terms
+    assert_response :success
+  end
+
+  test "should get privacy" do
+    get :privacy
     assert_response :success
   end
 

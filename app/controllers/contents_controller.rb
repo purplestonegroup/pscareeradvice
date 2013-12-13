@@ -1,5 +1,5 @@
 class ContentsController < ApplicationController
-  def advice
+  def career
   end
 
   def services
@@ -12,5 +12,11 @@ class ContentsController < ApplicationController
   end
 
   def stories
+  end
+
+  def terms
+  end
+
+  def privacy
   end
 end
