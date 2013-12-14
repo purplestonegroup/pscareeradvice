@@ -72,6 +72,34 @@ hr.light {
   margin: 10px 0;
   border: 0;
 }
+note {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #333333;
+}
+
+/* #Lists
+================================================== */
+
+  ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+  ul.square { list-style: square outside; }
+  ul.circle { list-style: circle outside; }
+  ul.disc { list-style: disc outside; }
+
+  li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  nav li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contact {
+    ul, ol {
+      margin-bottom: 20px;
+    }
+  }
 
 /* #Buttons
 ================================================== */
@@ -473,6 +501,13 @@ h2.starplatinum {
 }
 /* ================================================== */
 
+.stories {
+  margin-top: 30px;
+  img {
+    margin: 10px;
+    border: 1px solid #333333;
+  }
+}
 
 .footer_one {
 padding: 10px 0;
