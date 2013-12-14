@@ -4,9 +4,11 @@ es:
    application:
     slogan_html: "Obtenga un alto retorno sobre sus inversiones"
     home: "INICIO"
-    investment: "INVERSIÓN"
-    partnerus: "ASÓCIESE CON NOSOTROS"
-    ourcompanies: "NUESTRAS EMPRESAS"
+    careeradvice: "ASESORAMIENTO PROFESIONAL"
+    services: "SERVICIOS"
+    packs: "PACKS"
+    resources: "RECURSOS"
+    stories: "TESTIMONIOS"
     contact: "CONTACTO"
     aboutustitle: "Sobre Nosotros"
     whatis: "Que es Purple Stone Group?"
@@ -15,10 +17,14 @@ es:
     affiliatetext: "Envíenos un correo electrónico, usted puede unirse a nuestro programa de afiliados gratis y ganar grandes comisiones por las ventas generadas a partir de sus referencias!"
     affiliatebutton: "ÚNETE A NOSOTROS"
 
+  shared:
+    aweberform:
+      awebertitle: "Consigue ya tus informes GRATIS"
+      awebersubtitle: "Incremente el retorno de su inversión!"  
+
   posts:
    home:
-    awebertitle: "Consigue ya tus informes GRATIS"
-    awebersubtitle: "Incremente el retorno de su inversión!"
+
 
   contacts:
    form:
