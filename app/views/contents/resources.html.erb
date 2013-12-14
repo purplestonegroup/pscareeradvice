@@ -1,13 +1,9 @@
-<section class="video_form">
+<section class="resources">
 
   <div class="eight columns slide">
-
+  	<%= image_tag "younghappy.jpg", width: '620' %>
   </div>
 
-  <div class="four columns aweberform">
-    <h2><%= t('.awebertitle') %></h2>
-    <h3><%= t('.awebersubtitle') %></h3>
-    <script type="text/javascript" src="http://forms.aweber.com/form/87/353488187.js"></script>
-  </div>
+	<%= render :partial => 'shared/aweberform' %>
 
 </section>

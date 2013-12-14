@@ -15,10 +15,13 @@ en:
     affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
     affiliatebutton: "JOIN US"
 
+  shared:
+    aweberform:
+      awebertitle: "Claim your 100% free REPORT"
+      awebersubtitle: "21 Ways To Find Your First Job in London"    
+
   posts:
    home:
-    awebertitle: "Claim your 100% free REPORT"
-    awebersubtitle: "21 Ways To Find Your First Job in London"
 
   contacts:
    form:
