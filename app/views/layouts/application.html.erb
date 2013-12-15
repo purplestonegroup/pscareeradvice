@@ -3,7 +3,6 @@
 <head>
   <title>Purple Stone Career Advice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -146,8 +145,8 @@
 					<div>
 						<ul id="menu_footer" class="five columns">
 							<li><a href="#">Site Map</a></li>
-							<li><%= link_to "Terms and Conditions", terms_path %></li>
-							<li><%= link_to "Privacy Policy", privacy_path %></li>
+							<li><%= link_to t('.terms'), terms_path %></li>
+							<li><%= link_to t('.privacy'), privacy_path %></li>
 						</ul>
 					</div>
 				</div>
@@ -155,42 +154,42 @@
 			</footer>
 		</div> <!--  .container -->
 	</div>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav();
-	$('.bxslider').bxSlider({
-		mode: 'fade',
-		auto: true,
-		autostart: true
-		});
-});
-</script>
-<script type="text/javascript">
-$(document).ready(function(){
-
-	// hide #back-top first
-	$("#back-top").hide();
-	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
-		});
-
-		// scroll body to 0px on click
-		$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#menu').slicknav();
+		$('.bxslider').bxSlider({
+			mode: 'fade',
+			auto: true,
+			autostart: true
+			});
 	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
 
-});
-</script>
+		// hide #back-top first
+		$("#back-top").hide();
+		
+		// fade in #back-top
+		$(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('#back-top').fadeIn();
+				} else {
+					$('#back-top').fadeOut();
+				}
+			});
+
+			// scroll body to 0px on click
+			$('#back-top a').click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				return false;
+			});
+		});
+
+	});
+	</script>
 </body>
 </html>

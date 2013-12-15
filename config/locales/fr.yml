@@ -1,0 +1,58 @@
+fr:
+
+  layouts:
+   application:
+    slogan_html: "Trouver un emploi maintenant,<br />nous vous montrons comment"
+    home: "HOME"
+    careeradvice: "CONSEILS DE CARRIERE"
+    services: "SERVICES"
+    packs: "PACKS"
+    resources: "RESSOURCES"
+    stories: "SUCCESS STORIES"
+    contact: "CONTACT"
+    aboutustitle: "Qui sommes-nous"
+    whatis: "Quelle est Purple Stone Career Advice?"
+    aboutustext: "Purple Stone Career Advice est une entreprise dans l'Est de Londres qui propose des conseils de carrière, la rédaction de CV, la préparation aux entretiens, des cours de formation pour l'industrie de la restauration et des cours d'anglais pour vous préparer à trouver votre premier emploi à Londres."
+    affiliatetitle: "Rejoignez notre programme d’adhésion!"
+    affiliatetext: "Inscrivez-vous  à notre programme d’adhésion gratuit et gagnez des commissions sur les ventes générées par vos recommandations!"
+    affiliatebutton: "REJOIGNEZ-NOUS"
+    terms: "Terms of Use"
+    privacy: "Privacy Policy"
+
+  shared:
+    aweberform:
+      awebertitle: "Réclamez votre RAPORT 100% gratuit"
+      awebersubtitle: "21 Ways To Find Your First Job in London"    
+
+  posts:
+   home:
+
+   postsmenu:
+     postmenutitle: "SUJETS D'ACTUALITÉ"
+
+  contacts:
+   form:
+    name: "Nom"
+    email: "Adresse Email"
+    phone: "Téléphone"
+    subject: "sujet"
+    comments: "commentaires"
+    send: "ENVOYER"
+   new:
+    title_html: "S'il vous plaît, n'hésitez pas à nous envoyer vos demandes de renseignements. Nous allons vous répondre dès que possible."
+    subtitle: "Ci-dessous vous pouvez trouver notre emplacement sur ​​Google Maps."
+    contactus: "Contactez-nous"
+    bookcourse: "Réservez un cours"
+    contactustext_html: "Si vous avez des questions ou si vous souhaitez en savoir plus sur comment nous pouvons vous aider à améliorer votre anglais, n’hésitez pas à nous contacter. <br />Merci d’indiquer vos préférences et vos besoins spécifiques de formation, et un membre dévoué de notre équipe reviendra vers vous dès que possible.<br />Vous pouvez nous parler en anglais, roumain, français, espagnol et italien."
+    bookcoursetransfer: "Réservez, s’il vous plait, un cours par Paypal ou en faisant un virement bancaire à:"
+    customer: "Service Clients"
+    feedbacktitle: "A Purple Stone Academy, nous aimons toujours avoir des nouvelles de nos étudiants"
+    feedbacktext: "Si vous voulez nous donner vos impressions sur ce que nous faisons, suggérer comment nous pourrions améliorer les choses ou simplement envie d'un chat, envoyez-nous un message ou appelez-nous. Lignes téléphoniques ouvertes du Lundi au Vendredi de 8H à 20H."
+    address: "Adresse du bureau:"
+    opening: "Horaires d’ouvertures:"
+
+
+
+
+
+
