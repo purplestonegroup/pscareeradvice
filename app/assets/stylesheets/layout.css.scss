@@ -669,6 +669,9 @@ ul#menu_footer {
       padding: 10px 0;
     }
   }
+  #table {
+    display: none;
+  }
 
 }
 /* Landscape phone to portrait tablet */
@@ -693,6 +696,9 @@ ul#menu_footer {
   .slide h2 {
     font-size: 1em;
     width: 300px;
+  }
+  #table {
+    display: none;
   }
 
 }
