@@ -150,5 +150,52 @@ fr:
       servicestitle14_html: "Tutoriel en ligne<br />Comment faire une demande de NINO (National Insurance Number)"
       servicestext14: "Ce tutoriel en ligne explique comment et où demander un numéro de sécurité sociale."
 
+    resources:
+      internships: "Stages"
+      internshipstext: "A Purple Stone Academy, nous offrons une expérience professionnelle dans notre société."
+      internshipsli1: "Un stage professionnel fournit une expérience professionnelle non rémunérée dans un environnement anglophone dans votre domaine d’étude, précédentes expériences et objectifs de carrière à long terme."
+      internshipsli2: "Les stages ajoutent un statut considérable au CV et sont excellents pour les perspectives de carrière à long terme."
+      internshipsli3: "Les stages sont généralement disponibles dans le marketing, études de marché, la conception graphique, le développement de produits, et le travail de bureau."
+      internshipsli4: "Un stage peut être pris en combinaison avec des cours d'anglais dans notre école dans l’Est de Londres, ou, pour les étudiants ayant d'excellentes compétences linguistiques en anglais, livrés à eux-même."
+      internshipsli5: "La plupart des stages peuvent démarrer les lundis et dureront 3 mois minimum, du Lundi au Vendredi, pendant 5 heures par jour, mais dans des circonstances exceptionnelles, des périodes plus courtes peuvent être organisées."
+      internshipsli6: "Pendant la période de stage en entreprise, les stagiaires se voient confiés une variété de tâches différentes : allant du travail de projet stimulant à des tâches administratives de routine telles que la publication de notre école ou l'hébergement sur différents sites Web, la traduction de documents, la distribution de tracts, création de prospectus, écriture et recherche de contenu pour notre magazine."
+      internshipsli7: "En tant que «volontaire», les stagiaires ne seront pas payés. Par-dessus tout, les candidats doivent se rappeler que pendant qu'ils apprennent les compétences linguistiques et professionnelles, nous attendons également d’eux qu’ils travaillent dur et contribuent avec toute la puissance d’un employé."
+
+      englishlessons: "Leçons d’Anglais"
+      structure: "Structure"
+      structuretext: "Nous nous assurons que tous nos cours sont adaptés à vos besoins uniques. Nos cours d'anglais sont structurés pour répondre à votre niveau, votre  capacité et vos objectifs en général."
+      support: "Soutien"
+      supporttext: "Purple Stone Academy est une école d’Anglais visant à aider les étudiants étrangers à améliorer leur anglais rapidement afin qu'ils puissent trouver du travail et poursuivre leurs études."
+      encouragement: "Encouragement"
+      encouragementtext: "Nous offrons des cours d'anglais, des réseaux de soutien et d'hébergement afin que vous puissiez répondre à vos besoins éducatifs."
+      evaluation: "Evaluation"
+      evaluationtext: "Notre école d'anglais vous offre un système fantastique pour apprendre l'anglais qui vous permettra de: parler anglais, lire en toute confiance, améliorer votre prononciation, votre écoute et votre écrit."
+      dynamicact: "Activités Dynamiques"
+      dynamicacttext: "Apprendre l'anglais avec des classes dynamiques et des activités sociales!"
+      findmore: "Pour en savoir plus, visitez www.purplestoneacademy.com"
+
+      accomodation: "Logement"
+      accomodationtitle1: "Près de la station de métro et à moins de 15-20 minutes de l’école"
+      accomodationtext1: "Tous les hébergements que nous proposons se situent dans un rayon de 1-10 minutes de la station de métro et à 15-20 minutes de notre école en bus ou d’une gare. Les chambres à louer sont basées autour de Westferry, Canary Wharf, Bow, Limehouse, East India."
+      accomodationtitle2: "Vivre avec des jeunes sympathiques et multilingues - principalement des étudiants, européens et de jeunes professionnels"
+      accomodationtext2: "Nos maisons ont principalement des étudiants et de jeunes professionnels d'Europe. Nous sélectionnons avec soin les personnes qui vivent dans nos maisons afin d'assurer l'équilibre et l'harmonie."
+      accomodationtitle3: "Toutes charges comprises"
+      accomodationtext3: "Nous proposons des chambres à louer avec toutes charges comprises parce que nous voulons offrir la tranquillité d'esprit à nos élèves."
+      accomodationtitle4: "Support dans les 24 heures"
+      accomodationtext4: "Nous essayons toujours de revenir vers vous et de commencer à résoudre les problèmes que vous pourriez avoir dans les 24 heures. Nous faisons de ca notre priorité afin de répondre à vos besoins dès que possible."
+      accomodationtitle5: "Application d’un séjour minimum"
+      accomodationtext5: "Nous avons habituellement un séjour minimum de trois mois, avec un préavis de 6 semaines. Merci de nous contacter si vous avez besoin d'une chambre pour une période plus courte."
+
+      pleasecontact: "Merci de contacter Maria Diz Hernandez dans le cas où vous souhaiteriez plus d'informations sur nos chambres disponibles: maria@purplestonerooms.com"
+      alternatively: "Alternativement, merci de contacter Lily Patrascu: lily@purplestonerooms.com"
+
+    stories:
+      title: "Success Stories"
+      storycomments1: "Purple Stone Career Advice m'a aidé à améliorer mes compétences en anglais et à trouver un emploi. J'ai trouvé un emploi deux semaines après mon arrivée en Angleterre! Merci beaucoup Melle Lily! Purple Stone Career Advice donne tellement de possibilités à Londres!"
+      storyreview1: "Julien Collas a étudié l'anglais à Purple Stone Academy. Nous l’avons également conseillé sur la façon de trouver un emploi. Dans les deux semaines, il a été en mesure d'obtenir un emploi en tant que serveur."
+      storycomments2: "Salut, je suis Marinela. J'ai commencé à étudier l'anglais à Purple Stone Academy en Août et dans les six semaines, j'ai réussi à obtenir un emploi en tant que fille de café car j'ai amélioré mon discours, j'ai aussi pris les conseils de carrière et les techniques d'entrevue de Lily à Purple Stone Career Advice. Je recommande vivement l'école et les conseils de carrière!"
+      storyreview2: "Marinela a étudié l'anglais avec Purple Stone Academy pendant six semaines. En résultat des leçons et des conseils de carrière reçus, elle a été en mesure d'obtenir un emploi de fille de café."
+      storycomments3: "Salut, je m’appelle Fernando. Je suis venu à Purle Stone Academy pour étudier l'anglais il y a quelques mois, parce que je voulais être en mesure de trouver un emploi en Espagne, tout en utilisant mon anglais. J'ai été surpris par le niveau de dévouement, de soutien, d'encouragement et d’aide que les enseignants offrent. Il s'agit d'une très petite école, et c'est pourquoi j'ai amélioré mon anglais très vite ici!"
+      storyreview3: "Teo Vega a étudié avec Purple Stone Academy pendant quelques semaines. Son anglais était à un niveau pré-intermédiaire, mais il voulait être capable d'améliorer son anglais pour obtenir un emploi."
 
 
