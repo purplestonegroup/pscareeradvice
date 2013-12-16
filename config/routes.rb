@@ -17,7 +17,7 @@ Group::Application.routes.draw do
     get "/services" => "contents#services"
     get "/packs" => "contents#packs"
     get "/resources" => "contents#resources"
-    get "/stories" => "contents#stories"
+    get "/success-stories" => "contents#stories", as: "stories"
     get "/site-map" => "contents#sitemap", as: "sitemap"
     get "/terms-and-conditions" => "contents#terms", as: "terms"
     get "/privacy" => "contents#privacy"
