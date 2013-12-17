@@ -30,6 +30,7 @@
 					</span> 0207 247 1440</phone>
 					<div>
 					<div id="languages">
+						<%= I18n.locale %>
 						<%= form_tag current_path, class: 'locale', :method => :get do %>
 							<%= select_tag 'set_locale',
 								options_for_select(LANGUAGES, I18n.locale.to_s),
