@@ -65,6 +65,8 @@ gem "recaptcha", require: "recaptcha/rails"
 # add the slider
 gem 'bxslider-rails'
 
+gem 'i18n', github: 'svenfuchs/i18n'
+
 
 # version of ruby
 ruby "2.0.0"
