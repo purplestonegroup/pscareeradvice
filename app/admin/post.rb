@@ -17,9 +17,12 @@ ActiveAdmin.register Post do
 
   index do
     column :rank
+    column :category
     column :title
     column :created_at
-    column :body
+    column :body do |post|
+        truncate(post.body, omision: "...", length: 100)
+    end
     column :image_file_name
     actions
   end
@@ -37,7 +40,8 @@ ActiveAdmin.register Post do
 
   # Putting more clean the input fields in active_admin:
   form do |f|
-    f.inputs do 
+    f.inputs do
+      f.input :category
       f.input :title
       f.input :body
       f.input :image
