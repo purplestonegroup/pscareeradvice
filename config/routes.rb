@@ -1,5 +1,8 @@
 Group::Application.routes.draw do
 
+  get "categories/index"
+  get "categories/show"
+  get "categories/home"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
