@@ -30,7 +30,7 @@
 					</span> 0207 247 1440</phone>
 					<div>
 					<div id="languages">
-						<%= form_tag home_path, class: 'locale', :method => :get do %>
+						<%= form_tag root_path, class: 'locale', :method => :get do %>
 							<%= select_tag 'set_locale',
 								options_for_select(LANGUAGES, I18n.locale.to_s),
 								onchange: 'this.form.submit()' %>
@@ -54,11 +54,11 @@
 
 		<nav class="row">
 			<ul id="menu">
-				<li><%= active_link_to t('.home'), home_path, class: "first" %></li>
+				<li><%= active_link_to t('.home'), root_path, class: "first" %></li>
 				<li><%= active_link_to t('.careeradvice'), career_path, class: "link" %></li>
 				<li><%= active_link_to t('.services'), services_path, class: "link" %></li>
 				<li><%= active_link_to t('.packs'), packs_path, class: "link" %></li>
-				<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+				<li><%= active_link_to "BLOG", categories_path, class: "link" %></li>
 				<li><%= active_link_to t('.resources'), resources_path, class: "link" %></li>
 				<li><%= active_link_to t('.stories'), stories_path, class: "link" %></li>
 				<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
@@ -100,11 +100,11 @@
 
 				<nav class="row">
 					<ul id="menu">
-						<li><%= active_link_to t('.home'), home_path, class: "first" %></li>
+						<li><%= active_link_to t('.home'), root_path, class: "first" %></li>
 						<li><%= active_link_to t('.careeradvice'), career_path, class: "link" %></li>
 						<li><%= active_link_to t('.services'), services_path, class: "link" %></li>
 						<li><%= active_link_to t('.packs'), packs_path, class: "link" %></li>
-						<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+						<li><%= active_link_to "BLOG", categories_path, class: "link" %></li>
 						<li><%= active_link_to t('.resources'), resources_path, class: "link" %></li>
 						<li><%= active_link_to t('.stories'), stories_path, class: "link" %></li>
 						<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
