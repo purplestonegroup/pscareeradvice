@@ -1,19 +1,21 @@
 Group::Application.routes.draw do
 
-  get "categories/index"
-  get "categories/show"
-  get "categories/home"
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
 
   scope '(:locale)' do
-    resources :posts
+
+    resources :categories do
+      resources :posts
+    end
+
     resources :contacts
 
-    root 'posts#home'
-    get "/home" => "posts#home"
+    root 'categories#home'
+
     get "/contact" => "contacts#new"
+    get "/posts/search" => "posts#search"
 
     # static pages
     get "/career-advice" => "contents#career", as: "career"

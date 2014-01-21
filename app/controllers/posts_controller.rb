@@ -1,18 +1,25 @@
 class PostsController < ApplicationController
-  def index
-  	@posts = Post.all.order("created_at desc")
-  end
 
   def show
-  	@post = Post.find(params[:id])
+    # for the partial list of categories
+    @categories = Category.all.order("rank asc, name asc")
+    # to find the right category and then find the correspondent post...
+    @category = Category.find(params[:category_id])
+    
+    @post = @category.posts.find(params[:id])
   end
 
-  def home
-  	if params[:set_locale]
-  		redirect_to root_url(locale: params[:set_locale])
-  	else
-  		@posts = Post.all.order("created_at desc")
-  	end
+  def search
+    # for the partial list of categories
+    @categories = Category.all.order("rank asc, name asc")
+
+    if params[:search]
+      @posts = Post.search(params[:search]).order("created_at DESC")
+    else
+      @posts = Post.order("created_at DESC")
+    end
+
   end
+
 
 end

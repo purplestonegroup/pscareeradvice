@@ -1,0 +1,11 @@
+<div class="post_menu">
+
+	<h3>CATEGORIES</h3>
+	
+	<ul>
+		<% @categories.each do |category| %>
+			<li><%= link_to truncate(category.name, :length => 40), category_path(category) %></li>
+		<% end %>
+	</ul>
+	
+</div>

@@ -1,0 +1,32 @@
+<section class="seven columns offset-by-one">
+
+    <div class="postslist">
+      <% @posts.each do |post| %>
+        <div class="single_post group">
+
+            <div class="post_details">
+	            <h2><%= link_to post.title, category_post_path(post.category, post) %></h2>
+              <%= image_tag post.image(:header), class: "post_image" %>
+              <p><%= post.body %></p>
+            </div>
+
+        </div>
+      <% end %>
+
+    </div>
+
+</section>
+
+
+<section class="four columns post_menu">
+
+  <div>
+    <%= render :partial => 'shared/search' %>
+  </div>
+
+  <div>
+    <%= render :partial => 'shared/categoriesmenu' %>
+  </div>
+
+
+</section>

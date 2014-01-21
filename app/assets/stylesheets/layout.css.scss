@@ -388,6 +388,21 @@ nav a {
 margin-top: -20px;
 }
 
+/* #Search box
+================================================== */
+.input-append {
+  display: inline-block;
+  .search_input {
+    width: 70%;
+    float: left;
+  }
+  button {
+    margin: -3px 0 0 0;
+    padding: 4px 7px;
+  }
+}
+/* ================================================== */
+
 .contact {
   margin-top: 30px;
   h2 {

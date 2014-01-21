@@ -1,9 +1,15 @@
-<section class="eight columns offset-by-two">
+<section class="eight columns">
 
 	<div class="post_details">
 		<h2><%= @post.title %></h2>
 		<%= image_tag @post.image(:header), class: "post_image" %>
 		<p><%= @post.body %></p>
 	</div>
+
+</section>
+
+<section class="four columns">
+
+<%= render :partial => 'shared/postsmenu' %>
 
 </section>

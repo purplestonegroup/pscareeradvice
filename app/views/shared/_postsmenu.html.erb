@@ -1,0 +1,11 @@
+<div class="post_menu">
+
+	<h3>HOT TOPICS</h3>
+	
+	<ul>
+		<% @category.posts.each do |post| %>
+			<li><%= link_to truncate(post.title, :length => 40), category_post_path(@category, post) %></li>
+		<% end %>
+	</ul>
+
+</div>

@@ -1,2 +1,53 @@
-<h1>Categories#home</h1>
-<p>Find me in app/views/categories/home.html.erb</p>
+<section class="video_form">
+
+  <div class="eight columns slide">
+    <ul class="bxslider">
+      <li>
+        <h2>Want to Get a Job?<br />We offer CAREERS ADVICE</h2>
+        <div class="transp"></div>
+        <%= image_tag "slide_woman_1_psca.jpg" %>
+      </li>
+      <li>
+        <h2>CAREERS ADVICE for the Catering and Childcare Sectors in East London</h2>
+        <%= image_tag "slide_woman_2_psca.jpg" %>
+        <div class="transp"></div>
+      </li>
+      <li>
+        <h2>Want Help in Your Job Search? Let Us Help You Find A Job</h2>
+        <%= image_tag "slide_woman_3_psca.jpg" %>
+        <div class="transp"></div>
+      </li>
+    </ul>
+  </div>
+
+  <%= render :partial => 'shared/aweberform' %>
+
+</section>
+
+<section class="eight columns">
+
+    <div class="postslist">
+        <div class="single_post group">
+
+      <% @posts.each do |post| %>
+        <div class="single_post group">
+
+            <div class="post_details">
+              <h2><%= link_to post.title, category_post_path(post.category, post) %></h2>
+              <%= image_tag post.image(:header), class: "post_image" %>
+              <p><%= truncate post.body, length: 100 %></p>
+            </div>
+
+        </div>
+      <% end %>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="four columns">
+
+<%= render :partial => 'shared/categoriesmenu' %>
+
+</section>
