@@ -3,7 +3,7 @@
 	<h3>HOT TOPICS</h3>
 	
 	<ul>
-		<% @category.posts.each do |post| %>
+		<% @category.posts.order('created_at desc').each do |post| %>
 			<li><%= link_to truncate(post.title, :length => 40), category_post_path(@category, post) %></li>
 		<% end %>
 	</ul>

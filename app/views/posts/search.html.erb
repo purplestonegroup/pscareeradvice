@@ -7,7 +7,7 @@
             <div class="post_details">
 	            <h2><%= link_to post.title, category_post_path(post.category, post) %></h2>
               <%= image_tag post.image(:header), class: "post_image" %>
-              <p><%= post.body %></p>
+              <p><%= format post.body %></p>
             </div>
 
         </div>

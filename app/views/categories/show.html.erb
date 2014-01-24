@@ -1,11 +1,11 @@
 <section class="eight columns">
 
-	<% @category.posts.each do |post| %>
+	<% @category.posts.order('created_at desc').each do |post| %>
 
 		<div class="post_details">
 			<h2><%= link_to post.title, category_post_path(@category, post) %></h2>
 			<%= image_tag post.image(:header), class: "post_image" %>
-			<p><%= truncate post.body, length: 100 %></p>
+			<p><%= format truncate post.body, length: 300 %></p>
 		</div>
 
 	<% end %>
@@ -14,6 +14,12 @@
 
 <section class="four columns">
 
-<%= render :partial => 'shared/categoriesmenu' %>
+  <div>
+    <%= render :partial => 'shared/search' %>
+  </div>
+
+  <div>
+    <%= render :partial => 'shared/categoriesmenu' %>
+  </div>
 
 </section>

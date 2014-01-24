@@ -59,8 +59,8 @@ gem "activeadmin", github: "gregbell/active_admin"
 gem "paperclip"
 gem "aws-sdk"
 
-#add recaptcha
-gem "recaptcha", require: "recaptcha/rails"
+#add kjvarga/sitemap_generator 
+gem 'sitemap_generator'
 
 # add the slider
 gem 'bxslider-rails'
@@ -68,6 +68,8 @@ gem 'bxslider-rails'
 # I think re-adding the i18n sven's gem
 gem 'i18n', github: 'svenfuchs/i18n'
 
+# add the possibility to format the text of posts
+gem 'rdiscount'
 
 # version of ruby
 ruby "2.0.0"

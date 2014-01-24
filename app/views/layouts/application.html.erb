@@ -19,7 +19,7 @@
 			</h1>
 
 			<div class="four columns">
-				<h2><%= t('.slogan_html') %></h2>
+				<h2 class="slogan">Find A Job Now,<br />We’ll Show You How</h2>
 			</div>
 
 			<div class="five columns header_right_side">
@@ -40,12 +40,12 @@
 					</div>
 					</div>
 					<div class="stay-in-touch-icons">
-						<a class="twitter" href="http://www.twitter.com/" target="_blank" title="Follow us on Twitter">Follow us on Twitter</a>
-						<a class="facebook" href="http://www.facebook.com/" target="_blank" title="Follow us on Facebook">Follow us on Facebook</a>
-						<a class="google-plus" href="https://plus.google.com/" target="_blank" title="Follow us on Google Plus">Follow us on Google Plus</a>
-						<a class="linkedin" href="http://www.linkedin.com/" target="_blank" title="Follow us on Linkedin">Follow us on Linkedin</a>
-						<a class="pinterest" href="http://www.pinterest.com/" target="_blank" title="Follow us on Pinterest">Follow us on Pinterest</a>
-						<a class="youtube" href="http://youtube.com/" target="_blank" title="Follow us on Youtube">Follow us on Youtube</a>
+						<a class="twitter" href="https://twitter.com/PurpleSAcademy" target="_blank" title="Follow us on Twitter">Follow us on Twitter</a>
+						<a class="facebook" href="https://www.facebook.com/PurpleStoneAcademy" target="_blank" title="Follow us on Facebook">Follow us on Facebook</a>
+						<a class="google-plus" href="https://plus.google.com/107177687152744418771/about" target="_blank" title="Follow us on Google Plus">Follow us on Google Plus</a>
+						<a class="linkedin" href="http://www.linkedin.com/groups/Purple-Stone-Academy-6543537" target="_blank" title="Follow us on Linkedin">Follow us on Linkedin</a>
+						<a class="pinterest" href="http://www.pinterest.com/learnrealquick1/" target="_blank" title="Follow us on Pinterest">Follow us on Pinterest</a>
+						<a class="youtube" href="http://www.youtube.com/watch?v=1x0vD3r9mbk" target="_blank" title="Follow us on Youtube">Follow us on Youtube</a>
 					</div>
 				</div>
 
@@ -119,7 +119,7 @@
 					</h1>
 
 					<div class="four columns">
-						<h2><%= t('.slogan_html') %></h2>
+						<h2 class="slogan">Find A Job Now,<br />We’ll Show You How</h2>
 					</div>
 
 					<div class="four columns offset-by-one">
@@ -144,16 +144,24 @@
 					</div>
 
 					<div class="three columns">
-						<a href="#"><%= image_tag "logo_psg_white.png", width: '150' %></a>
+						<%= link_to "http://www.purplestonegroup.com/" do %>
+						<%= image_tag "logo_psg_white.png", width: '150' %>
+						<% end %>
 					</div>
 					<div class="three columns">
-						<a href="#"><%= image_tag "logo_psa_white.png", width: '150' %></a>
+						<%= link_to "http://www.purplestoneacademy.com/" do %>
+						<%= image_tag "logo_psa_white.png", width: '150' %>
+						<% end %>
 					</div>
 					<div class="three columns">
-						<a href="#"><%= image_tag "logo_psr_white.png", width: '150' %></a>
+						<%= link_to "http://www.purplestonerooms.com/" do %>
+						<%= image_tag "logo_psr_white.png", width: '150' %>
+						<% end %>
 					</div>
 					<div class="three columns">
-						<a href="#"><%= image_tag "logo_psm_white.png", width: '150' %></a>
+						<%= link_to "http://www.pstonemedia.com/" do %>
+						<%= image_tag "logo_psm_white.png", width: '150' %>
+						<% end %>
 					</div>
 
 				</div>
@@ -163,9 +171,9 @@
 					<p class="four columns">&copy; <%= Date.today.year %> Purple Stone Group Ltd</p>
 					<div>
 						<ul id="menu_footer" class="five columns">
-							<li><a href="#">Site Map</a></li>
-							<li><%= link_to t('.terms'), terms_path %></li>
-							<li><%= link_to t('.privacy'), privacy_path %></li>
+							<li><%= link_to "Terms and Conditions", terms_path %></li>
+							<li><%= link_to "Privacy Policy", privacy_path %></li>
+							<li><%= link_to "Design: PSM", "http://www.pstonemedia.com/" %></li>
 						</ul>
 					</div>
 				</div>
@@ -173,41 +181,5 @@
 			</footer>
 		</div> <!--  .container -->
 	</div>
-	<script type="text/javascript">
-	$(document).ready(function(){
-		$('#menu').slicknav();
-		$('.bxslider').bxSlider({
-			auto: true,
-			autostart: true
-			});
-	});
-	</script>
-	<script type="text/javascript">
-	$(document).ready(function(){
-
-		// hide #back-top first
-		$("#back-top").hide();
-		
-		// fade in #back-top
-		$(function () {
-			$(window).scroll(function () {
-				if ($(this).scrollTop() > 100) {
-					$('#back-top').fadeIn();
-				} else {
-					$('#back-top').fadeOut();
-				}
-			});
-
-			// scroll body to 0px on click
-			$('#back-top a').click(function () {
-				$('body,html').animate({
-					scrollTop: 0
-				}, 800);
-				return false;
-			});
-		});
-
-	});
-	</script>
 </body>
 </html>
