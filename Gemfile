@@ -65,9 +65,6 @@ gem 'sitemap_generator'
 # add the slider
 gem 'bxslider-rails'
 
-# I think re-adding the i18n sven's gem
-gem 'i18n', github: 'svenfuchs/i18n'
-
 # add the possibility to format the text of posts
 gem 'rdiscount'
 
