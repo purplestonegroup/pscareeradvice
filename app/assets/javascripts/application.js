@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.slicknav.min
+//= require jquery.flexslider-min
 //= require_tree .
