@@ -14,7 +14,7 @@ Group::Application.routes.draw do
 
     root 'categories#home'
 
-    get "/contact" => "contacts#new"
+    get "/contact" => "contacts#aweberform", as: "aweberform"
     get "/posts/search" => "posts#search"
 
     # static pages

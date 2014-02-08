@@ -51,6 +51,18 @@ en:
     feedbacktext: "Whether you want to give us feedback on what we're doing, suggest how we can make things better or simply fancy a chat, send us a message or give us a call. Telephone lines open Mon-Fri 8am to 8pm."
     address: "Office Address:"
     opening: "Opening hours:"
+   aweberform:
+    title_html: "Please feel free to contact us here.<br />We'll reply to you as soon as possible."
+    subtitle: "Below you can find our location in Google Maps."
+    contactus: "Contact Us"
+    bookcourse: "Book a Course"
+    contactustext_html: "Please get in touch if you have any questions or you wish to find out more about how we can help you improve your English.<br />Please state your preferences and your specific training needs, and a dedicated member of our team will get back to you as soon as possible.<br />You may speak to us in English, Romanian, French, Spanish and Italian."
+    bookcoursetransfer: "Please book a course by Paypal or by making a bank transfer to:"
+    customer: "Customer Service"
+    feedbacktitle: "At Purple Stone Career Advice, we always love hearing from our Students"
+    feedbacktext: "Whether you want to give us feedback on what we're doing, suggest how we can make things better or simply fancy a chat, send us a message or give us a call. Telephone lines open Mon-Fri 8am to 8pm."
+    address: "Office Address:"
+    opening: "Opening hours:"
 
   contents:
     career:

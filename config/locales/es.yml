@@ -52,6 +52,18 @@ es:
     feedbacktext: "Si quieres dejarnos tu comentarios sobre lo que estamos haciendo, sugerirnos cómo hacerlo mejor o simplemente decirnos cualquier cosa envía un mensaje o llámanos de lunes a viernes 8am – 8pm."
     address: "Dirección de la oficina:"
     opening: "Horario:"
+   aweberform:
+    title_html: "Por favor, no dude en enviarnos sus consultas. <br /> Le contestaremos en la mayor brevedad posible."
+    subtitle: "A continuación puede encontrar nuestra ubicación en Google Maps."
+    contactus: "Contacto"
+    bookcourse: "Reserva un curso"
+    contactustext_html: "Por favor ponte en contacto para preguntar cualquier duda o si quieres saber como podemos ayudarte a mejorar tu inglés.<br />Por favor dinos tus necesidades y un miembro de nuestro equipo se pondrá en contacto contigo tan pronto como sea posible.<br />Puedes hablarnos en inglés, rumano, francés, español e italiano."
+    bookcoursetransfer: "Reserva tu curso mediante Paypal o haciendo una transferencia a la cuenta:"
+    customer: "Atención al cliente"
+    feedbacktitle: "En Purple Stone Career Advice, nos encanta oir las opiniones de nuestros alumnos"
+    feedbacktext: "Si quieres dejarnos tu comentarios sobre lo que estamos haciendo, sugerirnos cómo hacerlo mejor o simplemente decirnos cualquier cosa envía un mensaje o llámanos de lunes a viernes 8am – 8pm."
+    address: "Dirección de la oficina:"
+    opening: "Horario:"
 
   contents:
     career:
