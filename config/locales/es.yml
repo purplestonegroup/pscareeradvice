@@ -48,7 +48,7 @@ es:
     contactustext_html: "Por favor ponte en contacto para preguntar cualquier duda o si quieres saber como podemos ayudarte a mejorar tu inglés.<br />Por favor dinos tus necesidades y un miembro de nuestro equipo se pondrá en contacto contigo tan pronto como sea posible.<br />Puedes hablarnos en inglés, rumano, francés, español e italiano."
     bookcoursetransfer: "Reserva tu curso mediante Paypal o haciendo una transferencia a la cuenta:"
     customer: "Atención al cliente"
-    feedbacktitle: "En Purple Stone Academy, nos encanta oir las opinions de nuestros alumnos"
+    feedbacktitle: "En Purple Stone Career Advice, nos encanta oir las opiniones de nuestros alumnos"
     feedbacktext: "Si quieres dejarnos tu comentarios sobre lo que estamos haciendo, sugerirnos cómo hacerlo mejor o simplemente decirnos cualquier cosa envía un mensaje o llámanos de lunes a viernes 8am – 8pm."
     address: "Dirección de la oficina:"
     opening: "Horario:"
@@ -74,7 +74,7 @@ es:
       servicestitle2: "Tu CV y Cover Letter hechas únicamente para ti"
       servicestext2: "Este servicio es ofrecido por Purple Stone Academy. Escribiremos para ti un CV y una Cover letter. Obtendrás tres versiones diferentes de tu CV y de tu Cover Letter. Puedes conseguir 100 copias en total."
       servicestitle3: "Sesión de 2 horas de preparación de entrevistas."
-      servicestext3: "Esta sesión es indispensable para tu búsqueda de trabajo ya que supone practicar técnicas para superar entrevistas con nuestros asesores. Al finalizar esta sesión de dos horas, estarás mucho mejor preparado para enfrentarte a una entrevista. Nuestros orientadores están preparados y normalmente conocen varios idiomas, por lo tanto podrán ayudarte a pesar de la barrera del idioma. Es necesaria reserva."
+      servicestext3_html: "Esta sesión es indispensable para tu búsqueda de trabajo ya que supone practicar técnicas para superar entrevistas con nuestros asesores. Al finalizar esta sesión de dos horas, estarás mucho mejor preparado para enfrentarte a una entrevista.<br /><br />Nuestros orientadores están preparados y normalmente conocen varios idiomas, por lo tanto podrán ayudarte a pesar de la barrera del idioma. Es necesaria reserva."
       servicestitle4: "Health and Safety Formación y Certificado"
       servicestext4: "Tutorial on line que te enseñará procedimientos de seguridad y salud. Cuando acabes el tutorial, recibirás un certificado online otorgado por Purple Stone Career Advice."
       servicestitle5: "Formación y certificado Online de Matemáticas para cajeros"
@@ -198,8 +198,8 @@ es:
       storyreview1: "Julien Collas estudió inglés en Purple Stone Academy. También fue orientado por nosotros para encontrar un trabajo y en dos semanas estaba trabajando de camarero."
       storycomments2: "Hola, soy Marinela. Empecé a estudiar inglés en Purple Stone Academy en agosto y en unas 6 semanas he conseguido un trabajo hablando mejor inglés y también gracias a la orientación profesional y las técnicas de entrevistas con Lily en Purple Stone Career Advice. ¡Recomiendo la academia y la orientación profesional!"
       storyreview2: "Marinela estudió inglés en Purple Stone Academy durante seis semanas. Como resultado de las lecciones y la orientación profesional ha sido capaz de encontrar un trabajo de camarera."
-      storycomments3: "Hola mi nombre es Fernando. Vine a  Purple Stone Academy a estudiar inglés hace unos meses, quería encontrar un trabajo mejor en España usando inglés. Me sorprendió el nivel de dedicación, apoyo y motivación de los profesores. ¡Es una escuela con clases reducidas, por eso aprendí inglés tan rápido!"
-      storyreview3: "Teo Vega ha estuidiado en Purple Stone Academy unas pocas semanas. Su nivel de inglés era Pre-intermedio, él quiere mejorar su inglés para conseguir un trabajo."
+      storycomments3: "Hola, soy Lisa. Fui a calses en Purple Stone Academy el primer mes que llegué a Londres. Es una buena academia donde los profesores son amistosos y siempre ayudan a los alumnos. Aprendí mucho en estas clases, ¡Definitivamente recomiendo esta academia! Disfruté viniendo aquí porque no hay mucha gente en clase y mejoré rápidamente. Uno de los profesores me ayudó a reescribir mi cv y ahora he encontrado un mejor trabajo"
+      storyreview3: "Lisa ha estudiado Inglés en Purple Stone Academy durante cuatro semanas. Ella no podía hablar Inglés bien, y estaba dispuesta a conseguir un trabajo rápidamente para poder progresar en su carrera profesional."
 
 
 
