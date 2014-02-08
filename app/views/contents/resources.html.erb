@@ -1,19 +1,37 @@
 <section class="resources">
 
-	<div class="row">
-		<div class="eight columns slide">
-			<%= image_tag "younghappy.jpg", width: '620' %>
+	<div class="row resourses_top">
+		<div class="four columns offset-by-one">
+			<h4>Accomodation and Internships packages</h4>
+			<h3>We are developing some packages to give you the most customized attention.
+			<br />So, please keep in touch and come to this section in the future to see what we have prepared for you</h3>
+			<hr class="light">
+			<p><i class="fa fa-arrow-circle-down"></i> <%= active_link_to "Internships", resources_path(:anchor => "internship"), class: "link" %><br />
+			<i class="fa fa-arrow-circle-down"></i> <%= active_link_to "Academy", resources_path(:anchor => "academy"), class: "link" %><br />
+			<i class="fa fa-arrow-circle-down"></i> <%= active_link_to "Accomodation", resources_path(:anchor => "acommodation"), class: "link" %>
+			</p>
+
+		</div>
+		<div class="three columns offset-by-one slide">
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ English Lessons</p>
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ Career Advice</p>
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ English Lesson <br />+ Career Advice</p>
 		</div>
 
-		<%= render :partial => 'shared/aweberform' %>
-		
+		<div class="three columns slide">
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ English Lessons</p>
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ Career Advice</p>
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ English Lesson <br />+ Career Advice</p>
+			<br />
+		</div>
+
 	</div>
 
 	<div class="row">
 
 		<div class="eight columns offset-by-two">
 
-			<h2><i class="fa fa-puzzle-piece"></i> <%= t('.internships') %></h2>
+			<h2 id="internship"><i class="fa fa-puzzle-piece"></i> <%= t('.internships') %></h2>
 			<hr class="light">
 			<p><%= t('.internshipstext') %></p>
 			<ul class="disc">
@@ -39,7 +57,7 @@
 
 		<div class="eight columns offset-by-two">
 
-			<h2><i class="fa fa-book"></i> <%= t('.englishlessons') %></h2>
+			<h2 id="academy"><i class="fa fa-book"></i> <%= t('.englishlessons') %></h2>
 			<hr class="light">
 
 			<div class="row">
@@ -91,7 +109,7 @@
 
 		<div class="eight columns offset-by-two">
 
-			<h2><i class="fa fa-home"></i> <%= t('.accomodation') %></h2>
+			<h2 id="acommodation"><i class="fa fa-home"></i> <%= t('.accomodation') %></h2>
 			<hr class="light">
 
 			<div class="row">
