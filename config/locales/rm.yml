@@ -1,0 +1,216 @@
+rm:
+
+  layouts:
+   application:
+    slogan_html: "Find A Job Now,<br />We’ll Show You How"
+    home: "ACASĂ"
+    careeradvice: "SFATURI DE CARIERA"
+    services: "SERVICII"
+    packs: "ÎMPACHETA"
+    resources: "RESURSE"
+    stories: "POVESTI DE SUCCES"
+    contact: "CONTACT"
+    aboutustitle: "Despre Noi"
+    whatis: "Ce este Purple Stone Career Advice?"
+    aboutustext: "Purple Stone Career Advice is a company in East London which offers Careers’ Advice, CV writing, preparation for interviews, training courses for the catering industry and English courses to prepare you for finding your first job in London."
+    affiliatetitle: "Alăturați-vă în Programul nostru de Afiliere Acum!"
+    affiliatetext: "Prin trimiterea unui e-mail la noi, vă puteți alătura gratuit la programul nostru de afiliere și de a câștiga comisioane generoase din vânzările generate de recomandari!"
+    affiliatebutton: "ALĂTURAȚI-VĂ NOUĂ"
+    terms: "Terms of Use"
+    privacy: "Privacy Policy"
+    ourcompanies: "Companiile noastre"
+
+  shared:
+    aweberform:
+      awebertitle: "Cererea dumneavoastră RAPORT gratuit 100%"
+      awebersubtitle: "21 Ways To Find Your First Job in London"    
+
+  posts:
+   home:
+
+   postsmenu:
+     postmenutitle: "HOT TOPICS"
+
+  contacts:
+   form:
+    name: "Nume"
+    email: "Poştă electronică"
+    phone: "Telefon"
+    subject: "Subiect"
+    comments: "Comentarii"
+    send: "TRIMITE"
+
+   new:
+    title_html: "Vă rugăm, nu ezitați să ne trimiteți cererile dvs.<br />Vom raspunde in cel mai scurt timp posibil."
+    subtitle: "Mai jos puteți găsi locația noastră în Google Maps."
+    contactus: "Contacteaza –ne"
+    bookcourse: "Rezerva un curs"
+    contactustext_html: "Vă rugăm să luați legătura dacă aveți întrebări sau dacă doriți să aflați mai multe despre cum putem ajuta să vă îmbunătățiți de limba engleza.<br />Vă rugăm să precizați preferințele și nevoile specifice de formare, precum și un membru dedicat al echipei noastre va primi înapoi la tine cât mai curând posibil. Ați putea să ne vorbească limba engleză, română, franceză, spaniolă și italiană."
+    bookcoursetransfer: "Va rugam sa rezervati un curs prin Paypal sau prin transfer bancar la:"
+    customer: "Serviciu cu Clientii"
+    feedbacktitle: "La Purple Stone Career Advice, am mereu placerea  sa aud din studenții noștri"
+    feedbacktext: "Fie că doriți să ne dea un feedback asupra a ceea ce facem, sugerează modul în care putem face lucrurile mai bine sau pur și simplu o fantezie de chat, trimite-ne un mesaj sau să ne dea un apel. Liniile de telefon deschise Luni-Vineri 8am la 20."
+    address: "Adresa de birou /program de lucru:"
+    opening: "Program de vizitare:"
+
+   aweberform:
+    title_html: "Vă rugăm, nu ezitați să ne trimiteți cererile dvs.<br />Vom raspunde in cel mai scurt timp posibil."
+    subtitle: "Mai jos puteți găsi locația noastră în Google Maps."
+    contactus: "Contacteaza –ne"
+    bookcourse: "Rezerva un curs"
+    contactustext_html: "Vă rugăm să luați legătura dacă aveți întrebări sau dacă doriți să aflați mai multe despre cum putem ajuta să vă îmbunătățiți de limba engleza.<br />Vă rugăm să precizați preferințele și nevoile specifice de formare, precum și un membru dedicat al echipei noastre va primi înapoi la tine cât mai curând posibil. Ați putea să ne vorbească limba engleză, română, franceză, spaniolă și italiană."
+    bookcoursetransfer: "Va rugam sa rezervati un curs prin Paypal sau prin transfer bancar la:"
+    customer: "Serviciu cu Clientii"
+    feedbacktitle: "La Purple Stone Career Advice, am mereu placerea  sa aud din studenții noștri"
+    feedbacktext: "Fie că doriți să ne dea un feedback asupra a ceea ce facem, sugerează modul în care putem face lucrurile mai bine sau pur și simplu o fantezie de chat, trimite-ne un mesaj sau să ne dea un apel. Liniile de telefon deschise Luni-Vineri 8am la 20."
+    address: "Adresa de birou /program de lucru:"
+    opening: "Program de vizitare:"
+
+  contents:
+    career:
+      title: "Sfaturi privind Cariera"
+      advice: "Consiliere și Sprijin"
+      advicetext: "Purple Stone Academy ofera sprijin si consiliere în carieră în găsirea primului loc de muncă, crearea unui cont bancar, obține un NINO (National Insurance Number), etc."
+      cv: "Scrierea CV -ului"
+      cvtext: "Noi va putem ajuta cu scrierea CV-ul, la standardele din Marea Britanie."
+      applications: "Applicatii pentru locul de munca"
+      applicationstext: "Putem aplica pentru tine pentru anumite locuri de muncă în zona noastră de expertiză, cum ar fi in hotel, catering, bona, au pair și rolurile de curățare."
+      training: "Pregatire"
+      trainingtext: "Va putem oferi formare în anumite cursuri care se referă la hotel și de catering industria. Putem, de asemenea, vă punct în direcția cea bună pentru bona, și roluri au pair."
+      getintouch: "Vă rugăm să luați legătura cu noi pentru mai multe detalii la careers@purplestoneacademy.com."
+      consultation: "Va putem oferi o consultare 30 minute de scris și sfaturi CV-ul, dacă vă rezervați cel puțin 6 săptămâni de cursuri. Rezervarea este obligatorie."
+
+    services:
+      title: "Servicii"
+      servicestitle1: "2 oră de consultare practică - de aplicare pentru ocuparea forței de muncă"
+      servicestext1: "Această consultare este excelenta pentru dvs. Daca sunteti in căutare de locuri de muncă, deoarece ea implică practicarea aplicații on-line cu consultantii nostri. La sfârșitul sesiunii 2 oră, vei deveni mult mai bine pregătiți pentru aplicațiile dvs. cu locuri de muncă. Consultanții noștri sunt pe deplin pregătiți și sunt, de obicei biligvi, de aceea ei  pot fi în măsură să va  ajute sa depasiti bariere lingvistice. Rezervarea este obligatorie."
+      servicestitle2: "CV-ul si scrisoarea de intentie Adaptată Pentru Dumneavoastra"
+      servicestext2: "Acest serviciu este furnizat de Purple Stone Academy. Vom scrie CV-ul pentru tine si scrisori de intentie. Puteți obține maximum 3 versiuni diferite ale fiecărui CV și scrisoare de intenție. Puteți obține 100 de exemplare tipărite, în total."
+      servicestitle3: "2 oră de consultanta de pregătire pentru interviuri"
+      servicestext3_html: "Această consultare este extrem de important pentru dvs. Dacasunteti in  căutare de locuri de muncă, deoarece ea implică practicarea tehnici de interviu cu consultantii nostri. La sfârșitul sesiunii 2 oră, va deveni mult mai bine pregătiți pentru interviuri. Consultanții noștri sunt pe deplin pregătiți și sunt, de obicei, mai multe limbi, de aceea ele pot fi în măsură să ajute cu bariere lingvistice. Rezervarea este obligatorie."
+      servicestitle4: "Certificat de Instruire in Sanatate si Siguranta"
+      servicestext4: "Acesta este un tutorial online, care vă va învăța măsurile de sănătate și siguranță. Când ați terminat tutorialul, veți primi un certificat on-line acordat de Departamentul Consiliere in Cariera Piatră Violeta."
+      servicestitle5: "Certificare de formare in competenta matematică pentru Casieri"
+      servicestext5: "Veți primi instruire on-line și un certificat de matematică pentru Casieri acordate de Purple Stone, Consiliere de carieră, care vă va învăța matematică de bază și cum să numere în limba engleză. Acest lucru va arata potentialilor angajatori ca sunteti familiarizați cu notiunile de bază matematică."
+      servicestitle6: "Training pentru Siguranța Alimentară și Certificatul de nivel 2"
+      servicestext6: "Acesta este un certificat eliberat de City and Guild. Acest certificat vă va învăța cum să va ocupati de alimente într-un mod sigur. Acesta este un certificat foarte util dacă doriți să lucrați în catering, mai ales dacă aveți contact direct cu produsele alimentare. Acest lucru este, de asemenea, foarte util în cazul în care  învățati  limba engleză, deoarece vă va învăța cuvinte foarte importante utilizate în domeniu alimentar."
+      servicestitle7: "Cum sa gasesti combinatia perfecta intre mancarea si vin"
+      servicestext7: "Acest certificat este acordat de către Purple Stone  Consiliere  de carieră. Acest certificat este util dacă doriți să lucrati  în industria de catering, sau în vânzările de produse alimentare sau vin, deoarece acest curs vă va învăța cum să combinati alimentele și vinul."
+      servicestitle8_html: "7 Strategii cheie pentru a găsi locuri de muncă rapid"
+      servicestext8: "Acest tutorial on-line este furnizat de Academia Purple Stone. Acest tutorial este  menit să te învețe cerințele necesare pentru a lucra în Marea Britanie, tehnici de interviu, tipuri de interviu, modul de a crea CV-ul si scrisoarea de intentie, cele zece elemente  importante în reușita la interviu de angajare și cele mai fregvente zece întrebările utilizate la interviuri."
+      servicestitle9_html: "Cum se aplica pentru locuri de muncă on-line-Tutorial pentru Catering"
+      servicestext9: "Acest tutorial on-line vă va învăța cum să aplicati  pentru locuri de muncă on-line. Veți primi, de asemenea, o listă de companii în cazul în care se pot aplica pentru locuri de muncă. Acest lucru va fi de mare folos pentru Dvs, dacă sunteți un începător complet în ceea ce privește aplicarea pentru locuri de muncă în Marea Britanie."
+      servicestitle10_html: "Cum se aplica pentru locuri de muncă Offline-Tutorial pentru Catering"
+      servicestext10: "Acest tutorial on-line vă va învăța cum să aplice pentru locuri de muncă offline. Veți afla cele mai eficiente modalități de a aplica pentru locuri de muncă offline. Acest tutorial vă va ajuta daca sunteti în căutare de locuri de muncă, mai ales în cele de catering, curățenie, domeniu hotelelier."
+      servicestitle11_html: "Cum se aplica pentru locuri de muncă on-line - Tutorial pentru Perechi exemplu, dădacele / Aupairs"
+      servicestext11: "Acest tutorial on-line vă va învăța cele mai eficiente modalități de a aplica pentru locuri de muncă offline. Acest lucru va fi foarte util pentru dvs. Daca sunteti in căutare de locuri de muncă."
+      servicestitle12_html: "Cum se aplica pentru locuri de muncă on-line-Tutorial pentru perechi exemplu, dădacele / Aupairs"
+      servicestext12: "Acest tutorial on-line vă va învăța cum să aplice pentru locuri de muncă on-line. Veți primi, de asemenea, o listă de locuri în care puteți aplica pentru locuri de muncă. Acest lucru va fi de mare folos pentru tine, dacă sunteți un începător complet în ceea ce privește aplicarea pentru locuri de muncă în Marea Britanie."
+      servicestitle13_html: "Tutorial online - Cum sa aplicati pentru un cont bancar din Marea Britanie"
+      servicestext13: "Acest tutorial online, explică unde și cum trebuie să se aplice pentru un cont bancar."
+      servicestitle14_html: "Tutorial Online – Cum sa aplici pentru  NINO (Numarul de Asigurare Nationala)"
+      servicestext14: "Acest tutorial online explica cum si unde poti aplica pentru  Numarul de Asigurare Nationala."
+
+      seewhat: "Vezi Ce spun clienții noștri"
+
+
+    packs:
+      title: "CURSURI DE FORMARE AFILIERI"
+      goldmemberstitle: "Membri Gold"
+      goldmemberstext: "Abonamentul Gold  vă permit accesul la toate tutorialele noastre online, care vă va învăța tot ce trebuie să știți pentru a obține un loc de muncă în Londra. Veți învăța cum să aveti succes la interviuri, cum să  aplice pentru locuri de muncă, în care să  aplice pentru locuri de muncă on-line și off-line, cum să scrie un CV si scrisoare de intentie, site-uri web, puteți aplica pe, și o mulțime de alte sfaturi utile."
+      platinummemberstitle: "Membri Platinum"
+      platinummemberstext: "Abonamentul de Platina sunt excelente pentru că vă veti  bucura de toate beneficiile de membru   de aur plus 3 sesiuni diferite de consultare 2 oră, unde consultantii nostri vor scrie CV-ul si scrisoarea de acoperire pentru tine. Ei vor practica, de asemenea, tehnici de interviu cu tine și ei vă va arăta cum să se aplice pentru locuri de muncă, prin aplicarea pentru tine."
+
+      save: "Salvați"
+      value: "în valoare de"
+      findout: "Aflați mai multe"
+
+      include: "Fiecare pachet conține:"
+      coursesincluded: "CURSURI INCLUSE"
+
+      otherservices: "ALTE SERVICII POT FI DISPONIBILE LA CERERE"
+      note1: "* Consultare se aplică în principal pentru camera de hotel, catering, restaurant, bona și roluri au pair."
+      note2: "** Disponibilitate limitată"
+
+      membdesc: "MEMBRU DESCRIERE:"
+      get: "Ce Obțineți:"
+
+      yourdonefor: "Adoptată pentru service ai"
+
+      servicestitle1: "2 oră de consultare practică - de aplicare pentru ocuparea forței de muncă"
+      servicestext1: "Această consultare este excelenta pentru dvs. Daca sunteti in căutare de locuri de muncă, deoarece ea implică practicarea aplicații on-line cu consultantii nostri. La sfârșitul sesiunii 2 oră, vei deveni mult mai bine pregătiți pentru aplicațiile dvs. cu locuri de muncă. Consultanții noștri sunt pe deplin pregătiți și sunt, de obicei biligvi, de aceea ei  pot fi în măsură să va  ajute sa depasiti bariere lingvistice. Rezervarea este obligatorie."
+      servicestitle2: "CV-ul si scrisoarea de intentie Adaptată Pentru Dumneavoastra"
+      servicestext2: "Acest serviciu este furnizat de Purple Stone Academy. Vom scrie CV-ul pentru tine si scrisori de intentie. Puteți obține maximum 3 versiuni diferite ale fiecărui CV și scrisoare de intenție. Puteți obține 100 de exemplare tipărite, în total."
+      servicestitle3: "2 oră de consultanta de pregătire pentru interviuri"
+      servicestext3_html: "Această consultare este extrem de important pentru dvs. Dacasunteti in  căutare de locuri de muncă, deoarece ea implică practicarea tehnici de interviu cu consultantii nostri. La sfârșitul sesiunii 2 oră, va deveni mult mai bine pregătiți pentru interviuri. Consultanții noștri sunt pe deplin pregătiți și sunt, de obicei, mai multe limbi, de aceea ele pot fi în măsură să ajute cu bariere lingvistice. Rezervarea este obligatorie."
+      servicestitle4: "Certificat de Instruire in Sanatate si Siguranta"
+      servicestext4: "Acesta este un tutorial online, care vă va învăța măsurile de sănătate și siguranță. Când ați terminat tutorialul, veți primi un certificat on-line acordat de Departamentul Consiliere in Cariera Piatră Violeta."
+      servicestitle5: "Certificare de formare in competenta matematică pentru Casieri"
+      servicestext5: "Veți primi instruire on-line și un certificat de matematică pentru Casieri acordate de Purple Stone, Consiliere de carieră, care vă va învăța matematică de bază și cum să numere în limba engleză. Acest lucru va arata potentialilor angajatori ca sunteti familiarizați cu notiunile de bază matematică."
+      servicestitle6: "Training pentru Siguranța Alimentară și Certificatul de nivel 2"
+      servicestext6: "Acesta este un certificat eliberat de City and Guild. Acest certificat vă va învăța cum să va ocupati de alimente într-un mod sigur. Acesta este un certificat foarte util dacă doriți să lucrați în catering, mai ales dacă aveți contact direct cu produsele alimentare. Acest lucru este, de asemenea, foarte util în cazul în care  învățati  limba engleză, deoarece vă va învăța cuvinte foarte importante utilizate în domeniu alimentar."
+      servicestitle7: "Cum sa gasesti combinatia perfecta intre mancarea si vin"
+      servicestext7: "Acest certificat este acordat de către Purple Stone  Consiliere  de carieră. Acest certificat este util dacă doriți să lucrati  în industria de catering, sau în vânzările de produse alimentare sau vin, deoarece acest curs vă va învăța cum să combinati alimentele și vinul."
+      servicestitle8_html: "7 Strategii cheie pentru a găsi locuri de muncă rapid"
+      servicestext8: "Acest tutorial on-line este furnizat de Academia Purple Stone. Acest tutorial este  menit să te învețe cerințele necesare pentru a lucra în Marea Britanie, tehnici de interviu, tipuri de interviu, modul de a crea CV-ul si scrisoarea de intentie, cele zece elemente  importante în reușita la interviu de angajare și cele mai fregvente zece întrebările utilizate la interviuri."
+      servicestitle9_html: "Cum se aplica pentru locuri de muncă on-line-Tutorial pentru Catering"
+      servicestext9: "Acest tutorial on-line vă va învăța cum să aplicati  pentru locuri de muncă on-line. Veți primi, de asemenea, o listă de companii în cazul în care se pot aplica pentru locuri de muncă. Acest lucru va fi de mare folos pentru Dvs, dacă sunteți un începător complet în ceea ce privește aplicarea pentru locuri de muncă în Marea Britanie."
+      servicestitle10_html: "Cum se aplica pentru locuri de muncă Offline-Tutorial pentru Catering"
+      servicestext10: "Acest tutorial on-line vă va învăța cum să aplice pentru locuri de muncă offline. Veți afla cele mai eficiente modalități de a aplica pentru locuri de muncă offline. Acest tutorial vă va ajuta daca sunteti în căutare de locuri de muncă, mai ales în cele de catering, curățenie, domeniu hotelelier."
+      servicestitle11_html: "Cum se aplica pentru locuri de muncă on-line - Tutorial pentru Perechi exemplu, dădacele / Aupairs"
+      servicestext11: "Acest tutorial on-line vă va învăța cele mai eficiente modalități de a aplica pentru locuri de muncă offline. Acest lucru va fi foarte util pentru dvs. Daca sunteti in căutare de locuri de muncă."
+      servicestitle12_html: "Cum se aplica pentru locuri de muncă on-line-Tutorial pentru perechi exemplu, dădacele / Aupairs"
+      servicestext12: "Acest tutorial on-line vă va învăța cum să aplice pentru locuri de muncă on-line. Veți primi, de asemenea, o listă de locuri în care puteți aplica pentru locuri de muncă. Acest lucru va fi de mare folos pentru tine, dacă sunteți un începător complet în ceea ce privește aplicarea pentru locuri de muncă în Marea Britanie."
+      servicestitle13_html: "Tutorial online - Cum sa aplicati pentru un cont bancar din Marea Britanie"
+      servicestext13: "Acest tutorial online, explică unde și cum trebuie să se aplice pentru un cont bancar."
+      servicestitle14_html: "Tutorial Online – Cum sa aplici pentru  NINO (Numarul de Asigurare Nationala)"
+      servicestext14: "Acest tutorial online explica cum si unde poti aplica pentru  Numarul de Asigurare Nationala."
+
+    resources:
+      internships: "Stagiaturi"
+      internshipstext: "Purple Stone Academy va oferim experiență de lucru profesional in cadrul companiei noastre."
+      internshipsli1: "Un stagiu profesional oferă o experiență profesională de muncă neremunerată într-un mediu vorbitor de limba engleza in domeniul dumneavoastră de studiu, experiența anterioară și a obiectivelor de carieră pe termen lung."
+      internshipsli2: "Plasamente sunt adauga experienta de lucru la un CV si sunt excelente pentru perspectivele de carieră pe termen lung ale elevilor."
+      internshipsli3: "Ucenicia la locul de muncă sunt în general disponibile în marketing, cercetare de piata, design grafic, dezvoltare de produs, și munca de birou."
+      internshipsli4: "Un stagiu pot fi luate în combinație cu un curs de limba engleză la școala noastră în East London, sau, pentru elevii cu abilitati excelente de limba engleză, pe cont propriu."
+      internshipsli5: "Cele mai multe stagii incep orice zi de luni și va dura minimum 3 luni, de luni până vineri, timp de 5 ore pe zi, dar în circumstanțe excepționale, pot fi aranjate perioade mai scurte."
+      internshipsli6: "În timpul perioadei de experiență de muncă, stagiarii se pot acorda o varietate de sarcini de diferite tipuri - de la locul de muncă provocator proiect la sarcini administrative de rutină, cum ar fi publicarea de școala noastră sau cazare pe diferite site-uri, traducerea documentelor, distribuirea de pliante, crearea de pliante, scris și cercetarea de conținut pentru revista noastră."
+      internshipsli7: "Ca un 'voluntar', stagiari nu vor fi plătite. Mai presus de toate, candidații ar trebui să isi aminteasca că în timp ce acestea suntin curs de învățare competențelor lingvistice și profesionale, ne așteptăm, de asemenea, stagiari să lucreze din greu și să contribuie ca orice s-ar putea angajat."
+
+      englishlessons: "Lectii de Limba Engleza"
+      structure: "Structura"
+      structuretext: "Ne asigură că toate cursurile noastre sunt adaptate nevoilor dvs. unice. Toate cursurile noastre de limba engleză sunt structurate pentru a satisface nivelul  dumneavoastră, capacitatea și obiective generale."
+      support: "Suport"
+      supporttext: "Purple Stone Academy este o școală în limba engleză orientate spre a ajuta studenții străini sa  iși îmbunătățească limba engleză, astfel încât  să poată obține locul de muncă și de a continua studiul."
+      encouragement: "Incurajare"
+      encouragementtext: "Noi vă oferim  lecții de limba engleză, rețele de sprijin și de cazare, astfel încât să  va puteți satisface nevoile educaționale."
+      evaluation: "Evolutie"
+      evaluationtext: "Scoala noastra de limba engleză vă oferă un sistem fantastic pentru Cursuri de limba engleza, care vă va permite să: Vorbiti  limba engleză, Citiți cu încredere, pentru a îmbunătăți pronunția dvs., ascultarea și scrierea."
+      dynamicact: "Activitati Dinamice"
+      dynamicacttext: "Invata limba engleza cu o  clasă dinamica  și cu activități sociale!"
+      findmore: "Pentru a afla mai multe informatii ,va rugam accesati www.purplestoneacademy.com"
+
+      accomodation: "Camere de inchiriat"
+      accomodationtitle1: "Aproape de statia de metroi și la 15-20 de minute la școală"
+      accomodationtext1: "Toate unitatii de cazare oferite de noi sunt în 1-10 minute de la stația de metrou la 15-20 de minute de școala noastră cu autobuzul sau cu trenul. Camerele de inchiriat sunt localizate in Westferry, Canary Wharf, Bow, Limehouse, East India."
+      accomodationtitle2: "Locuiesc cu tineri, prietenos, multilingvi - Studenții, în principal din Europa si Tineri Profesionisti"
+      accomodationtext2: "Casele noastre au, în principal studenți și tineri profesioniști din Europa. Vom selecta cu grijă oamenii care locuiesc în casele noastre, în scopul de a asigura echilibru si armonie."
+      accomodationtitle3: "Toate facturile incluse"
+      accomodationtext3: "Oferim camere de închiriat, cu toate facturile incluse pentru că dorim să oferim pace a mintii pentru studenții noștri."
+      accomodationtitle4: "Suport in 24 de ore"
+      accomodationtext4: "Noi încercăm întotdeauna să raspundem problemelor voastre și de a începe rezolvarea oricărei probleme care pot apărea în 24 de ore. Ne face o prioritate pentru a satisface nevoile dvs. cât mai curând posibil."
+      accomodationtitle5: "Se aplică sejur minim"
+      accomodationtext5: "Noi, avem, au un sejur de minim de trei luni plus o notificare șase săptămâni. Vă rugăm să luați legătura dacă aveți nevoie de o camera pentru o perioadă mai scurtă."
+
+      pleasecontact: "Vă rugăm să o contactați pe Maria Diaz Hernandez, în cazul în care doriți mai multe informații despre camerele noastre disponibile: "
+      alternatively: "Alternativa, va rugam sa o contactati pe Lily Patrascu: "
+
+    stories:
+      title: "Success Stories"
+      storycomments1: "Purple Stone Career Advice helped me to improve my English skills and find a job. I found a job after two weeks of coming to England! Thanks so much Miss Lily! Purple Stone Career Advice gives so many opportunities in London!"
+      storyreview1: "Julien Collas studied English at Purple Stone Academy. He was also advised by us about how to find a job. Within two weeks he was able to get a job as a waiter."
+      storycomments2: "Hi, I am Marinela. I started Studying English at Purple Stone Academy in August and within six weeks I managed to get a job as a barista because I improved my speaking and I also took some career advice and interview techniques from Lily at Purple Stone Career Advice. I highly recommend the school and the career advice!"
+      storyreview2: "Marinela has studied English with Purple Stone Academy for six weeks. As a result of the lessons and career advice received, she was able to get a job as a barista."
+      storycomments3: "Hi, I am Lisa. I attended Purple Stone Academy in the first month that I arrived in London. It is a really good school and the teachers are friendly and helpful with all the students. I learned a lot of things here. I highly recommend this school! I enjoy coming here because there are not many people so I improved a lot in a short time. One of the teachers corrected my CV and I am now in a better position to find a job"
+      storyreview3: "Lisa has studied English with Purple Stone Academy for four weeks. She could not speak English well, and she was keen to get a job quickly so that she can progress in her work."
+

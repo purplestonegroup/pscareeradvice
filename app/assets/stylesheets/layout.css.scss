@@ -470,9 +470,9 @@ border-bottom: 8px solid $primaryColour;
    background-color:$secondaryColour;
    z-index:3;
    /* These three lines are for transparency in all browsers. */
-   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-   filter: alpha(opacity=90);
-   opacity:.9;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+   filter: alpha(opacity=30);
+   opacity:.3;
   }
   img {
     position: relative;
